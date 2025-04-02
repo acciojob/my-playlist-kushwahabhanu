@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the players */
+    width: fit-content;  /* Adjust width to content */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
